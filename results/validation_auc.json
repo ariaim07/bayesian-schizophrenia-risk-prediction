@@ -1,0 +1,54 @@
+[
+ {
+  "population": "East Asian",
+  "snps_used": 932193,
+  "snps_in_weights": 1069518,
+  "effective_NP(1-P)": 7628.654074965053,
+  "M_source": "case/control counts",
+  "d_case_control_shift_sd": 0.5969843973245849,
+  "auc": 0.6635355602432261,
+  "auc_ci95": [
+   0.6577256468141482,
+   0.6693066879425285
+  ]
+ },
+ {
+  "population": "East Asian (se)",
+  "snps_used": 932193,
+  "snps_in_weights": 1069518,
+  "effective_NP(1-P)": 6666.01819641652,
+  "M_source": "standard errors",
+  "d_case_control_shift_sd": 0.6386734148516353,
+  "auc": 0.6742251266725083,
+  "auc_ci95": [
+   0.6680864446808894,
+   0.6803169302602796
+  ]
+ },
+ {
+  "population": "African American (se)",
+  "snps_used": 1017660,
+  "snps_in_weights": 1069518,
+  "effective_NP(1-P)": 2264.5317525613686,
+  "M_source": "standard errors",
+  "d_case_control_shift_sd": 0.3356235792096251,
+  "auc": 0.5937963890368331,
+  "auc_ci95": [
+   0.5824626791489049,
+   0.6050520385152782
+  ]
+ },
+ {
+  "population": "Latino (se)",
+  "snps_used": 1064128,
+  "snps_in_weights": 1069518,
+  "effective_NP(1-P)": 804.3410624816094,
+  "M_source": "standard errors",
+  "d_case_control_shift_sd": 0.7725123253722868,
+  "auc": 0.7075525042022708,
+  "auc_ci95": [
+   0.6905398381196299,
+   0.7241171322658815
+  ]
+ }
+]

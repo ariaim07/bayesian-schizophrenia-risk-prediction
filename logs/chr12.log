@@ -1,0 +1,44 @@
+
+
+--ref_dir=/Users/ariaim/Downloads/scz_bayes/real_data/data/ldblk_1kg_eur
+--bim_prefix=/Users/ariaim/Downloads/scz_bayes/real_data/data/ref_snps
+--sst_file=/Users/ariaim/Downloads/scz_bayes/real_data/data/sumstats_prscs.txt
+--a=1
+--b=0.5
+--phi=None
+--n_gwas=126281
+--n_iter=1000
+--n_burnin=500
+--thin=5
+--out_dir=/Users/ariaim/Downloads/scz_bayes/real_data/output/scz
+--chrom=['12']
+--beta_std=FALSE
+--write_psi=FALSE
+--write_pst=FALSE
+--seed=7
+
+
+##### process chromosome 12 #####
+... parse reference file: /Users/ariaim/Downloads/scz_bayes/real_data/data/ldblk_1kg_eur/snpinfo_1kg_hm3 ...
+... 54948 SNPs on chromosome 12 read from /Users/ariaim/Downloads/scz_bayes/real_data/data/ldblk_1kg_eur/snpinfo_1kg_hm3 ...
+... parse bim file: /Users/ariaim/Downloads/scz_bayes/real_data/data/ref_snps.bim ...
+... 54948 SNPs on chromosome 12 read from /Users/ariaim/Downloads/scz_bayes/real_data/data/ref_snps.bim ...
+... parse sumstats file: /Users/ariaim/Downloads/scz_bayes/real_data/data/sumstats_prscs.txt ...
+... 5431841 SNPs read from /Users/ariaim/Downloads/scz_bayes/real_data/data/sumstats_prscs.txt ...
+... 52609 common SNPs in the reference, sumstats, and validation set ...
+... parse reference LD on chromosome 12 ...
+... MCMC ...
+--- iter-100 ---
+--- iter-200 ---
+--- iter-300 ---
+--- iter-400 ---
+--- iter-500 ---
+--- iter-600 ---
+--- iter-700 ---
+--- iter-800 ---
+--- iter-900 ---
+--- iter-1000 ---
+... Estimated global shrinkage parameter: 1.88e-04 ...
+... Done ...
+
+

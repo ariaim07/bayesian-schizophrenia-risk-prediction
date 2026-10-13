@@ -1,0 +1,46 @@
+[
+ {
+  "disc_n": 3000,
+  "val_cases": 4065,
+  "val_n": 20550,
+  "auc_true_individual": 0.6928,
+  "auc_summary_estimate": 0.6953,
+  "ci": [
+   0.6865,
+   0.7041
+  ]
+ },
+ {
+  "disc_n": 6000,
+  "val_cases": 4029,
+  "val_n": 20618,
+  "auc_true_individual": 0.7209,
+  "auc_summary_estimate": 0.7302,
+  "ci": [
+   0.7217,
+   0.7387
+  ]
+ },
+ {
+  "disc_n": 3000,
+  "val_cases": 4976,
+  "val_n": 25313,
+  "auc_true_individual": 0.6862,
+  "auc_summary_estimate": 0.6872,
+  "ci": [
+   0.6792,
+   0.6953
+  ]
+ },
+ {
+  "disc_n": 6000,
+  "val_cases": 3073,
+  "val_n": 15405,
+  "auc_true_individual": 0.7388,
+  "auc_summary_estimate": 0.7482,
+  "ci": [
+   0.7387,
+   0.7577
+  ]
+ }
+]
