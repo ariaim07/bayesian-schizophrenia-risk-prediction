@@ -5,7 +5,7 @@
 
 This repository is a reconstruction and extension of a project I worked on during
 MITES (The original code was saved in Google Colab under my MIT account, which I can no
-longer access. I rebuilt the project using datasets I still had available). 
+longer access. I rebuilt and improved on the project using datasets I still had available). 
 In the original project, I worked on Bayesian modeling for schizophrenia
 risk prediction. My MITES instructor provided the simulated data and the initial
 research setup; my work focused on building and working with the Bayesian model.
