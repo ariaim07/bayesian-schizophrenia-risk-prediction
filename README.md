@@ -4,19 +4,16 @@
 ## Project background
 
 This repository is a reconstruction and extension of a project I worked on during
-MITES. In the original project, I worked on Bayesian modeling for schizophrenia
+MITES (The original code was saved in Google Colab under my MIT account, which I can no
+longer access. I rebuilt the project using datasets I still had available). 
+In the original project, I worked on Bayesian modeling for schizophrenia
 risk prediction. My MITES instructor provided the simulated data and the initial
 research setup; my work focused on building and working with the Bayesian model.
+The simulation results below should not be interpreted as results from real patients.
 
-The original code was saved in Google Colab under my MIT account, which I can no
-longer access. I rebuilt the project using datasets I still had available, so this
-repository is not an exact copy of the original notebooks. It also includes
-additional analyses and validation work developed during the reconstruction,
-including PRS-CS and cross-ancestry evaluation. The simulation results below
-should not be interpreted as results from real patients.
-
-**Bottom line.** A Bayesian polygenic score (PRS-CS) was trained on the PGC3 European
-schizophrenia GWAS (53,386 cases). It was then tested on independent cohorts it never saw:
+A Bayesian polygenic score (PRS-CS) was trained on the PGC3 European
+schizophrenia GWAS (53,386 cases). 
+It was then tested on independent cohorts it never saw:
 
 | Cohort | AUC |
 |---|---|
@@ -115,14 +112,8 @@ the simulation, not an estimate for real patients.
 | `validate_summary_auc.py` | simulation check of the summary-statistics AUC method |
 
 ## Limitations
-- **No individual-level test.** The AUCs are estimated from summary statistics, not
-  measured on individuals.
-- **No within-European estimate.** No public European schizophrenia GWAS is independent
-  of PGC3, so the score is only tested across ancestries.
-- **Not early onset.** The outcome is adult schizophrenia in case–control samples, not
-  early-onset risk in children.
-- **Genetics only.** No non-genetic risk factors, such as family history or cannabis use,
-  are modeled.
-- **Terms of use.** PGC data were used under PGC terms: no attempt to identify
-  individuals, and the results are polygenic scores derived from published summary
-  statistics.
+- The AUCs are estimated from summary statistics, not measured on individuals.
+- No public European schizophrenia GWAS is independent of PGC3, so the score is only tested across ancestries.
+- The outcome is adult schizophrenia in case–control samples, not early-onset risk in children.
+- No non-genetic risk factors, such as family history or cannabis use, are modeled.
+- PGC data were used under PGC terms: no attempt to identify individuals, and the results are polygenic scores derived from published summary statistics.
